@@ -138,6 +138,18 @@ case "$mirror" in
 	AzureChinaCloud)
 		DOWNLOAD_URL="https://mirror.azure.cn/docker-ce"
 		;;
+  Tencent)
+		DOWNLOAD_URL="https://mirrors.tencent.com/docker-ce"
+		;;
+	TUNA)
+		DOWNLOAD_URL="https://mirrors.tuna.tsinghua.edu.cn/docker-ce"
+		;;
+	USTC)
+		DOWNLOAD_URL="https://mirrors.ustc.edu.cn/docker-ce"
+		;;
+  SJTU)
+		DOWNLOAD_URL="https://mirrors.sjtug.sjtu.edu.cn//docker-ce"
+		;;
 	"")
 		;;
 	*)
